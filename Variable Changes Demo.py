@@ -1,13 +1,14 @@
-import time
+from time import sleep
 
 item = 0
 
 while True:
-    while not (item > 9):
+    if (item <= 9):
         print(item)
         item += 1
-        time.sleep(1)
-    while not (item < 1):
-        print(item)
-        item -= 1
-        time.sleep(1)
+        sleep(1)
+    else:
+        for a in range(10):
+            print(item)
+            item -= 1
+            sleep(1)
