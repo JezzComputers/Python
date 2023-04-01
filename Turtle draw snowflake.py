@@ -1,10 +1,9 @@
 import turtle
 import random
 pat = turtle.Turtle()
-colours = ["cyan", "purple", "green", "blue", "red", "yellow"]
+colours = ["cyan", "purple", "green", "blue", "red", "yellow", "white"]
 turtle.Screen().bgcolor(random.choice(colours))
 pat.color("black")
-turtle.Screen().bgcolor("white")
 pat.penup()
 pat.forward(90)
 pat.left(45)
