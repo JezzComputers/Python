@@ -2,7 +2,7 @@ import turtle
 import random
 pat = turtle.Turtle()
 colours = ["cyan", "purple", "green", "blue", "red", "yellow"]
-#turtle.Screen().bgcolor(random.choice(colours))
+turtle.Screen().bgcolor(random.choice(colours))
 pat.color("black")
 turtle.Screen().bgcolor("white")
 pat.penup()
@@ -23,5 +23,3 @@ def branch():
 for i in range(8):
     branch()
     pat.left(45)
-#   Makes the Background and branch colour change at the end of each branch
-#    pat.color(random.choice(colours)
