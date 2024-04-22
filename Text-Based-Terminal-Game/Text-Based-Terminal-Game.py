@@ -178,8 +178,9 @@ while True:
             print('You have ended your own life...\nYour score is:',score)
             try:
                 requests.post('https://dweet.io/dweet/for/text-based-terminal-game-highscore?', data={'value':score})
+                print('\nHighscore has been updated')
             except:
                 print("Error updating high score")
-            exit
+            exit()
         else:
             print("You can't do that")
