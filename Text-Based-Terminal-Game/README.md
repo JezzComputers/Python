@@ -1,9 +1,9 @@
-#Text-Based Terminal Game
+# Text-Based Terminal Game
 
-##Description
+## Description
 This repository contains a simple text-based terminal game written in Python. The game allows players to interact with a fictional world through the command line. Players can explore, collect items, and make choices that affect the outcome of the game.
 
-##Key Features
+## Key Features
 Explore different locations
 Collect items
 Make decisions
