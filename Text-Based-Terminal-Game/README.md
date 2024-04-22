@@ -17,13 +17,13 @@ Make sure you have Python 3.x installed on your system.
 
 ## Installation
 Clone this repository:
-'git clone https://github.com/JezzComputers/Python.git'
+`git clone https://github.com/JezzComputers/Python.git`
 
 Navigate to the Text-Based-Terminal-Game directory:
-'cd Python/Text-Based-Terminal-Game'
+`cd Python/Text-Based-Terminal-Game`
 
 Run the game:
-'python Text-Based-Terminal-Game.py'
+`python Text-Based-Terminal-Game.py`
 
 Usage
 Follow the prompts in the terminal to play the game. Use commands like go, take, and attack to interact with the game world.
