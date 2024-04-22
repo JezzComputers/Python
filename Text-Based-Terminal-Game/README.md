@@ -1,4 +1,5 @@
-3Text-Based Terminal Game
+#Text-Based Terminal Game
+
 !GitHub !GitHub last commit
 
 Description
