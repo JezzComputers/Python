@@ -34,6 +34,7 @@ Run the game:
 
 * Add more locations
 * Implement additional game mechanics
+* Add back in features included in the OG version
 
 ## Contributing
 
