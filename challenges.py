@@ -97,7 +97,7 @@ def radToDeg(radians:int) -> float:
 # Sort a list
 def sortList(mylist:list[int], direction:str) -> list[int]:
     if direction == "asc":
-        mylist = sorted(mylist, reverse=False)
+        mylist = sorted(mylist)
     elif direction == "desc":
         mylist = sorted(mylist, reverse=True)
     elif direction == "none":
@@ -106,5 +106,14 @@ def sortList(mylist:list[int], direction:str) -> list[int]:
         raise ValueError(f"error: value can't be {direction} it can only be asc, desc or none")
     return mylist
 
+# Count the vowels in a string
+def vowelsInString(words:str) -> int:
+    vowelCount:int = 0
+    vowels:list[str] = ["a", "e", "i", "o", "u"]
+    for i in range(len(words)):
+        if vowels in words:
+            vowelCount += 1
+    return vowelCount
+
 if __name__ == "__main__":
-    print(sortList([1,5,6,4], "desc"))
+    print(vowelsInString("aeutio"))
