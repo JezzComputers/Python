@@ -1,4 +1,5 @@
 from math import pi
+from time import time
 
 # Python Challenge 1: Check if a List is Sorted
 def is_sorted(lst) -> bool:
@@ -107,11 +108,11 @@ def sortList(mylist:list[int], direction:str) -> list[int]:
     return mylist
 
 # Count the vowels in a string
-def vowelsInString(words:str) -> int:
+def vowelsInString(inputString:str) -> int:
     vowelCount:int = 0
-    vowels:list[str] = ["a", "e", "i", "o", "u"]
-    for i in range(len(vowels)):
-        if vowels[i] in words:
+    vowels:set[str] = {"a", "e", "i", "o", "u"}
+    for char in inputString.lower():
+        if char in vowels:
             vowelCount += 1
     return vowelCount
 
