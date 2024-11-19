@@ -110,10 +110,10 @@ def sortList(mylist:list[int], direction:str) -> list[int]:
 def vowelsInString(words:str) -> int:
     vowelCount:int = 0
     vowels:list[str] = ["a", "e", "i", "o", "u"]
-    for i in range(len(words)):
-        if vowels in words:
+    for i in range(len(vowels)):
+        if vowels[i] in words:
             vowelCount += 1
     return vowelCount
 
 if __name__ == "__main__":
-    print(vowelsInString("aeutio"))
+    print(vowelsInString("aeutioo"))
