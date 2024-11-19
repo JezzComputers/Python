@@ -1,5 +1,4 @@
 from math import pi
-from time import time
 
 # Python Challenge 1: Check if a List is Sorted
 def is_sorted(lst) -> bool:
